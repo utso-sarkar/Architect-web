@@ -1,0 +1,128 @@
+/* google fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,800&display=swap');
+
+  /* apply google fonts */
+  *{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+/* styles for header */
+header{
+    padding: 50px 240px;
+    background-color: rgba(255, 144, 14, 0.10);;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a:hover{
+ background-color: #FF900E;
+ color: #FFF;
+ border: 1px solid peru;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 35px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 5000px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* nav-title style */
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+   
+}
+/* banner css style */
+.banner-title{
+    color:black;
+    font-size: 64px;
+    font-weight: 700;
+}
+.btn-pry{
+    align-items: center;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 4px;
+    color: #FFF;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+    border: 0;
+}
+.btn-pry:hover{
+    background-color: rgb(20, 202, 3);
+}
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-text{
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-dec{
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banar-img{
+    width: 100%;
+    margin-top: 20px;
+
+}
+/* responsive section / style */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* /* tablet devices * \
+@ */
+@media screen and (min-width:576px  ) and (max-width:960px){
+    nav{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .banner-text {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .btn-pry {
+        align-items: center;
+        border-radius: 8px;
+        background: #FF900E;
+        width: 119px;
+        height: 36px;
+        border-radius: 4px;
+        color: #FFF;
+        text-align: center;
+        font-size: medium;
+        cursor: pointer;
+        border: 0;
+    }
+    header{
+        padding: 20px;
+    }
+    
+    
+}
